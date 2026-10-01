@@ -1,0 +1,11 @@
+llm:
+  provider: gemini
+  model: gemini-3.8-flash
+  temperature: 0.0
+  max_tokens: 1500
+  cache_dir: .cache          # identical requests are served from disk, saving cost
+
+prompts_file: prompts/prompts.yaml
+output_dir: outputs
+max_notice_chars: 12000      # longer notices are truncated to cap token usage
+max_repairs: 2               # extra LLM calls allowed to fix invalid JSON

@@ -1,0 +1,13 @@
+[theme]
+base = "dark"
+primaryColor = "#62c7da"
+backgroundColor = "#10161d"
+secondaryBackgroundColor = "#1a2631"
+textColor = "#e9edf0"
+borderColor = "#34424e"
+linkColor = "#efb46d"
+font = "DM Sans:https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
+headingFont = "'Space Grotesk':https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap"
+baseRadius = "small"
+buttonRadius = "small"
+showWidgetBorder = true
