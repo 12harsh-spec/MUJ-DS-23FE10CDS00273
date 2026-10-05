@@ -16,6 +16,16 @@ Turn a college circular, email, or forwarded notice into structured action items
 deadlines, event dates and times, priorities, required documents, and a checklist.
 The Streamlit dashboard accepts pasted text or a `.txt` upload.
 
+## Key Features
+
+- Extracts actionable tasks from college notices.
+- Identifies deadlines, event dates, times, and priorities.
+- Detects required documents and other student requirements.
+- Supports Gemini Mode for LLM-based extraction.
+- Provides a deterministic Demo Mode without an API key.
+- Validates structured extraction results using Pydantic.
+- Exports extracted actions as Markdown checklists and calendar files.
+
 ## How it works
 1. `prompts/prompts.yaml` contains the system task, JSON schema guidance, user template,
    and repair prompt. The same prompt is used in Gemini Mode.
