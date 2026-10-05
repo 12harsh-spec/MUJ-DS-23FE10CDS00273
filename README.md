@@ -1,3 +1,15 @@
+# Student Information
+
+| Field | Details |
+|---|---|
+| Name | Harsh Yadav |
+| Registration Number | 23FE10CDS00273 |
+| Branch | Data Science |
+| Section | D |
+| Project Title | Notice Action Extractor |
+| GitHub Username | 12harsh-spec |
+
+---
 # College Notice → Student Action Extractor
 
 Turn a college circular, email, or forwarded notice into structured action items,
